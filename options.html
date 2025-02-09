@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Extension Settings</title>
+  <style>
+      body {
+          font-family: Arial, sans-serif;
+          padding: 20px;
+          max-width: 400px;
+      }
+      input {
+          width: 100%;
+          padding: 8px;
+          margin-top: 5px;
+      }
+      button {
+          margin-top: 10px;
+          padding: 8px;
+          cursor: pointer;
+      }
+  </style>
+</head>
+<body>
+<h2>Extension Settings</h2>
+<label for="gistUrl">Gist URL:</label>
+<input type="url" id="gistUrl" placeholder="Enter Gist URL">
+<button id="save">Save</button>
+<p id="status" style="color: green;"></p>
+<script src="options.js"></script>
+</body>
+</html>
