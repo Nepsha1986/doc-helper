@@ -1,9 +1,9 @@
 {
-  "manifest_version": 1,
+  "manifest_version": 3,
   "name": "Documentation Helper",
   "version": "1.0",
   "description": "Shows documentation links for specified elements",
-  "permissions": ["activeTab", "scripting"],
+  "permissions": ["activeTab", "scripting", "storage"],
   "action": {
     "default_icon": {
       "16": "icons/icon16.png",
@@ -11,9 +11,11 @@
       "128": "icons/icon128.png"
     }
   },
+  "background": {
+    "service_worker": "background.js"
+  },
   "content_scripts": [{
     "matches": ["<all_urls>"],
-    "js": ["content.js"],
     "css": ["styles.css"]
   }],
   "web_accessible_resources": [{
