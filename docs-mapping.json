@@ -1,0 +1,30 @@
+{
+  "card": {
+    "title": "User Profile Section",
+    "description": "This section handles user profile information display and editing",
+    "links": [
+      {
+        "text": "User Profile API Documentation",
+        "url": "https://example.com/docs/user-profile"
+      },
+      {
+        "text": "Profile Component Guidelines",
+        "url": "https://example.com/docs/components/profile"
+      }
+    ]
+  },
+  "dashboard-stats": {
+    "title": "Dashboard Statistics",
+    "description": "Real-time statistics display component",
+    "links": [
+      {
+        "text": "Statistics API Reference",
+        "url": "https://example.com/docs/api/statistics"
+      },
+      {
+        "text": "Dashboard Components Guide",
+        "url": "https://example.com/docs/components/dashboard"
+      }
+    ]
+  }
+}

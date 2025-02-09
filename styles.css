@@ -1,0 +1,72 @@
+.doc-helper-question-mark {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  width: 16px;
+  height: 16px;
+  background: #007bff;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  z-index: 10000;
+}
+
+.doc-helper-question-mark:hover {
+  background: #0056b3;
+}
+
+.doc-helper-popup {
+  position: fixed;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 15px;
+  min-width: 300px;
+  max-width: 400px;
+  z-index: 10001;
+}
+
+.doc-helper-popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.doc-helper-popup-header h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.doc-helper-close {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0 5px;
+}
+
+.doc-helper-close:hover {
+  color: #666;
+}
+
+.doc-helper-links {
+  margin-top: 10px;
+}
+
+.doc-helper-links a {
+  display: block;
+  color: #007bff;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.doc-helper-links a:hover {
+  text-decoration: underline;
+}
